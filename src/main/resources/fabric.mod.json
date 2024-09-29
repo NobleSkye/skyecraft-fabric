@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skyecraft",
+	"version": "${version}",
+	"name": "SkyeCraft",
+	"description": "This is a mod that is for me to learn java",
+	"authors": [
+		"NobleSkye"
+	],
+	"contact": {
+		"homepage": "https://nobleskye.dev",
+		"sources": "https://github.com/NobleSkye"
+	},
+	"license": "ARR",
+	"icon": "assets/skyecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.nobleskye.skyecraft.SkyeCraft"
+		],
+		"fabric-datagen": [
+			"dev.nobleskye.skyecraft.SkyeCraftDataGenerator"
+		],
+		"client": [
+			"dev.nobleskye.skyecraft.SkyeCraftModClient"
+			]
+	},
+	"mixins": [
+		"skyecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
