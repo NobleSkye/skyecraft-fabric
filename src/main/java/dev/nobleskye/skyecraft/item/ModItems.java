@@ -18,7 +18,7 @@ public class ModItems {
     }
 
 
-    public static void regiterModItems() {
+    public static void registerModItems() {
         SkyeCraft.LOGGER.info("Registering Mod Items for " + SkyeCraft.MOD_ID);
 
 

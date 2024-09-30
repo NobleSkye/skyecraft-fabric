@@ -1,5 +1,6 @@
 package dev.nobleskye.skyecraft;
 
+import dev.nobleskye.skyecraft.block.ModBlocks;
 import dev.nobleskye.skyecraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,8 +12,8 @@ public class SkyeCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.regiterModItems();
-
+		ModItems.registerModItems();
+		ModBlocks.regsiterModBlocks();
 
 
 		LOGGER.info("Skyecraft has been initialized!");
