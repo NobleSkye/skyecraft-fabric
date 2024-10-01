@@ -9,18 +9,15 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item PINK_GARNET = regitsterItem("pink_garnet", new Item(new Item.Settings()));
-    public static final Item RAW_PINK_GARNET = regitsterItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
-
-    private static Item regitsterItem(String name, Item item) {
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SkyeCraft.MOD_ID, name), item);
     }
 
-
     public static void registerModItems() {
         SkyeCraft.LOGGER.info("Registering Mod Items for " + SkyeCraft.MOD_ID);
-
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);

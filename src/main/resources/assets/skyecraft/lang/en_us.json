@@ -1,4 +1,6 @@
 {
   "item.skyecraft.pink_garnet": "Pink Garnet",
-  "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet"
+  "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet",
+  "block.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.skyecraft.pink_garnet_block": "Pink Garnet Block"
 }
