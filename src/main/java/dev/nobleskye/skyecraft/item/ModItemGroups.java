@@ -30,13 +30,28 @@ public class ModItemGroups {
                     }).build());
 
     public static final ItemGroup DOORS_REMAKE = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(SkyeCraft.MOD_ID, "ligher"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
-                    .displayName(Text.translatable("itemgroup.skyecraft.pink_garnet_blocks"))
+            Identifier.of(SkyeCraft.MOD_ID, "lighter"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LIGHTER))
+                    .displayName(Text.translatable("itemgroup.skyecraft.lighter"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.LIGHTER);
                         entries.add(ModItems.LOCK_PICK);
                     }).build());
+
+
+    public static final ItemGroup MCD_ITEMS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(SkyeCraft.MOD_ID, "mcd_turthseeker"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LIGHTER))
+                    .displayName(Text.translatable("itemgroup.skyecraft.mcd_turthseeker"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MCD_HEARTSTEALER);
+                        entries.add(ModItems.MCD_RAPIER);
+                        entries.add(ModItems.MCD_TRUTHSEEKER);
+                        entries.add(ModItems.MCD_SWORD);
+                        entries.add(ModItems.MCD_UNNAMED_BLADE);
+                    }).build());
+
+
 
 
 
