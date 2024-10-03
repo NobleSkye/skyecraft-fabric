@@ -8,5 +8,11 @@
   "itemgroup.skyecraft.pink_garnet_items": "SkyeCraft Items",
   "itemgroup.skyecraft.doors_remake": "Minecraft but Doors",
   "item.skyecraft.lighter": "Lighter",
-  "item.skyecraft.lock_pick": "Lock Pick"
+  "item.skyecraft.lock_pick": "Lock Pick",
+  "": "",
+  "item.skyecraft.mcd_truthseeker": "MCD Truthseeker",
+  "item.skyecraft.mcd_rapier": "MCD Rapier",
+  "item.skyecraft.mcd_heartstealer": "MCD Heartstealer",
+  "item.skyecraft.mcd_sword": "MCD Sword",
+  "item.skyecraft.mcd_unnamed_blade": "MCD Unnamed Blade"
 }

@@ -1,6 +1,7 @@
 package dev.nobleskye.skyecraft;
 
 import dev.nobleskye.skyecraft.block.ModBlocks;
+import dev.nobleskye.skyecraft.item.GuiditeMaterial;
 import dev.nobleskye.skyecraft.item.ModItemGroups;
 import dev.nobleskye.skyecraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,9 @@ public class SkyeCraft implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModItemGroups.registerItemGroups();
+        ModItemGroups.registerItemGroups();
+//        GuiditeMaterial.registerGuiditeMaterial();
+
 
 
         LOGGER.info("Skyecraft has been initialized!");
