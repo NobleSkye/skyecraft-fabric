@@ -1,6 +1,12 @@
 {
   "item.skyecraft.pink_garnet": "Pink Garnet",
   "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet",
+  "block.skyecraft.pink_garnet_block": "Pink Garnet Block",
   "block.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
-  "block.skyecraft.pink_garnet_block": "Pink Garnet Block"
+  "": "",
+  "itemgroup.skyecraft.pink_garnet_blocks": "SkyeCraft Blocks",
+  "itemgroup.skyecraft.pink_garnet_items": "SkyeCraft Items",
+  "itemgroup.skyecraft.doors_remake": "Minecraft but Doors",
+  "item.skyecraft.lighter": "Lighter",
+  "item.skyecraft.lock_pick": "Lock Pick"
 }

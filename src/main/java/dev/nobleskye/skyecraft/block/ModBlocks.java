@@ -1,7 +1,7 @@
 package dev.nobleskye.skyecraft.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import dev.nobleskye.skyecraft.SkyeCraft;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -19,7 +19,10 @@ public class ModBlocks {
 
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
-                    .requiresTool()));
+                    .requiresTool()  ));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
