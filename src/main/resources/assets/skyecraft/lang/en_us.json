@@ -1,15 +1,18 @@
 {
+  "itemgroup.skyecraft.mcd_items": "Minecraft Dungeons Items",
+  "itemgroup.skyecraft.doors_remake": "Minecraft But Doors",
+  "itemgroup.skyecraft.pink_garnet_blocks": "SkyeCraft Blocks",
+  "itemgroup.skyecraft.pink_garnet_items": "SkyeCraft Items",
+
   "item.skyecraft.pink_garnet": "Pink Garnet",
   "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet",
   "block.skyecraft.pink_garnet_block": "Pink Garnet Block",
   "block.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
-  "": "",
-  "itemgroup.skyecraft.pink_garnet_blocks": "SkyeCraft Blocks",
-  "itemgroup.skyecraft.pink_garnet_items": "SkyeCraft Items",
-  "itemgroup.skyecraft.doors_remake": "Minecraft but Doors",
+  "block.skyecraft.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.skyecraft.pink_garnet_ore": "Pink Garnet Ore",
+
   "item.skyecraft.lighter": "Lighter",
   "item.skyecraft.lock_pick": "Lock Pick",
-  "": "",
   "item.skyecraft.mcd_truthseeker": "MCD Truthseeker",
   "item.skyecraft.mcd_rapier": "MCD Rapier",
   "item.skyecraft.mcd_heartstealer": "MCD Heartstealer",

@@ -1,5 +1,6 @@
 package dev.nobleskye.skyecraft.item;
 
+import com.sun.jna.platform.unix.X11;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import dev.nobleskye.skyecraft.SkyeCraft;
 import dev.nobleskye.skyecraft.block.ModBlocks;
@@ -32,7 +33,7 @@ public class ModItemGroups {
     public static final ItemGroup DOORS_REMAKE = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(SkyeCraft.MOD_ID, "lighter"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LIGHTER))
-                    .displayName(Text.translatable("itemgroup.skyecraft.lighter"))
+                    .displayName(Text.translatable("itemgroup.skyecraft.doors_remake"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.LIGHTER);
                         entries.add(ModItems.LOCK_PICK);
@@ -40,9 +41,9 @@ public class ModItemGroups {
 
 
     public static final ItemGroup MCD_ITEMS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(SkyeCraft.MOD_ID, "mcd_turthseeker"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LIGHTER))
-                    .displayName(Text.translatable("itemgroup.skyecraft.mcd_turthseeker"))
+            Identifier.of(SkyeCraft.MOD_ID, "mcd_truthseeker"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MCD_SWORD))
+                    .displayName(Text.translatable("itemgroup.skyecraft.mcd_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.MCD_HEARTSTEALER);
                         entries.add(ModItems.MCD_RAPIER);

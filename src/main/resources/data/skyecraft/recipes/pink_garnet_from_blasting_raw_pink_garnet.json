@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "skyecraft:raw_pink_garnet"
+  },
+  "result": {
+    "id": "skyecraft:pink_garnet"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

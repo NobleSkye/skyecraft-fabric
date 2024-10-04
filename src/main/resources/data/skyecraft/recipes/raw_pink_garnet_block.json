@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "skyecraft:raw_pink_garnet"
+    }
+  },
+  "result": {
+    "id": "skyecraft:raw_pink_garnet_block",
+    "count": 1
+  }
+}

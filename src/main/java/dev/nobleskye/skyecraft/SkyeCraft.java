@@ -18,8 +18,6 @@ public class SkyeCraft implements ModInitializer {
         ModBlocks.registerModBlocks();
         ModItemGroups.registerItemGroups();
         ModItemGroups.registerItemGroups();
-//        GuiditeMaterial.registerGuiditeMaterial();
-
 
 
         LOGGER.info("Skyecraft has been initialized!");

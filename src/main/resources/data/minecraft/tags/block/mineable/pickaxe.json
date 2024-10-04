@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "skyecraft:pink_garnet_block",
+    "skyecraft:raw_pink_garnet_block",
+    "skyecraft:pink_garnet_ore",
+    "skyecraft:pink_garnet_deepslate_ore"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "skyecraft:pink_garnet_deepslate_ore"
+  },
+  "result": {
+    "id": "skyecraft:pink_garnet"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

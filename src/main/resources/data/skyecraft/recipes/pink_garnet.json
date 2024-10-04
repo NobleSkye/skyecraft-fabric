@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "skyecraft:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "skyecraft:pink_garnet"
+  }
+}
