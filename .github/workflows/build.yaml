@@ -25,7 +25,7 @@ jobs:
           echo "snapshotVersion=5.5-SNAPSHOT" >> $GITHUB_ENV
           echo "artifactPath=$(pwd)/builds" >> $GITHUB_ENV
       - name: Upload Mod jar
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: Plugin-${{ env.snapshotVersion }}-${{ env.git_hash }}.jar
-          path: ${{ env.artifactPath }}/Plugin-${{ env.snapshotVersion }}.jar
+          name: Mod-${{ env.snapshotVersion }}-${{ env.git_hash }}.jar
+          path: ${{ env.artifactPath }}/Mod-${{ env.snapshotVersion }}.jar
