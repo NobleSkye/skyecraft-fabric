@@ -27,7 +27,7 @@ simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
-operatorItemsTab:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true

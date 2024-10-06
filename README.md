@@ -18,7 +18,8 @@ build if you want no garentee itll work
 │   │   │               │   ├── ModItems.java             
 │   │   │               │   ├── GuiditeMaterial.java       
 │   │   │               │   └── ModSwords.java            
-│   │   │               ├── /block                         
+│   │   │               ├── /block    
+│   │   │               │   └── ModBlocks.java                 
 │   │   │               ├── /entity                         
 │   │   │               ├── /event                        
 │   │   │               ├── /network                       
