@@ -55,8 +55,8 @@ public class ModBlocks {
 //    public static final Block HYTALE_BIRCH_DOOR = registerBlock("hytale_birch_door",
 //            new DoorBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_DOOR)));
 
-//    public static final Block HYTALE_BIRCH_LOG = registerBlock("hytale_birch_log",
-//            new PillarBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_LOG)));
+    public static final Block HYTALE_BIRCH_LOG = registerBlock("hytale_birch_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_LOG)));
 
     public static final Block HYTALE_BIRCH_PLANKS = registerBlock("hytale_birch_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS)));
@@ -327,7 +327,7 @@ public class ModBlocks {
             entries.add(ModBlocks.HYTALE_ANDESITE);
 //            entries.add(ModBlocks.HYTALE_BIGDOOR);
 //            entries.add(ModBlocks.HYTALE_BIRCH_DOOR);
-//            entries.add(ModBlocks.HYTALE_BIRCH_LOG);
+            entries.add(ModBlocks.HYTALE_BIRCH_LOG);
             entries.add(ModBlocks.HYTALE_BIRCH_PLANKS);
 //            entries.add(ModBlocks.HYTALE_BIRCH_TRAPDOOR);
             entries.add(ModBlocks.HYTALE_BLUE_ICE);

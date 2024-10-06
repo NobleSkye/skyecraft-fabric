@@ -21,6 +21,8 @@ public class ModItems {
     public static final Item LIGHTER = registerItem("lighter", new Item(new Item.Settings()));
     public static final Item LOCK_PICK = registerItem("lock_pick", new Item(new Item.Settings()));
 
+    public static final Item HYTALE_MERGER = registerItem("hytale_merger", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SkyeCraft.MOD_ID, name), item);
     }
@@ -38,6 +40,7 @@ public class ModItems {
             entries.add(MCD_HEARTSTEALER);
             entries.add(MCD_SWORD);
             entries.add(MCD_UNNAMED_BLADE);
+            entries.add(HYTALE_MERGER);
         });
     }
 }

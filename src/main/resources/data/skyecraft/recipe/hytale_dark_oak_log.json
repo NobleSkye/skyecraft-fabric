@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "H": {
+      "item": "skyecraft:hytale_merger"
+    }
+  },
+  "result": {
+    "id": "skyecraft:hytale_dark_oak_log",
+    "count": 8
+  }
+}

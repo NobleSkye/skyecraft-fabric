@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bigdoor"
+    },
+    "H": {
+      "item": "skyecraft:hytale_merger"
+    }
+  },
+  "result": {
+    "id": "skyecraft:hytale_bigdoor",
+    "count": 8
+  }
+}

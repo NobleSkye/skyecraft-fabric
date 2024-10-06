@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "H": {
+      "item": "skyecraft:hytale_merger"
+    }
+  },
+  "result": {
+    "id": "skyecraft:hytale_stripped_acacia_log",
+    "count": 8
+  }
+}

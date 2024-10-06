@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_cave_crystal"
+    },
+    "H": {
+      "item": "skyecraft:hytale_merger"
+    }
+  },
+  "result": {
+    "id": "skyecraft:hytale_pink_cave_crystal",
+    "count": 8
+  }
+}

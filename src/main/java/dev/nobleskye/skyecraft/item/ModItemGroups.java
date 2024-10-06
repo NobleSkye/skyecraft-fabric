@@ -1,6 +1,6 @@
 package dev.nobleskye.skyecraft.item;
 
-import com.sun.jna.platform.unix.X11;
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import dev.nobleskye.skyecraft.SkyeCraft;
 import dev.nobleskye.skyecraft.block.ModBlocks;
