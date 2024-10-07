@@ -6,10 +6,13 @@
 
   "item.skyecraft.pink_garnet": "Pink Garnet",
   "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet",
-  "block.skyecraft.pink_garnet_block": "Pink Garnet Block",
-  "block.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
-  "block.skyecraft.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-  "block.skyecraft.pink_garnet_ore": "Pink Garnet Ore",
+  "item.skyecraft.magic_block": "Magic Block",
+
+  "tooltip.skyecraft.chisel.shift_down": "Chiseled Block",
+  "tooltip.skyecraft.chisel": "Chisel",
+
+
+
 
   "item.skyecraft.lighter": "Lighter",
   "item.skyecraft.lock_pick": "Lock Pick",
@@ -19,6 +22,8 @@
   "item.skyecraft.mcd_sword": "MCD Sword",
   "item.skyecraft.mcd_unnamed_blade": "MCD Unnamed Blade",
   "item.skyecraft.statue_zombie_pigman": "Zombie Pigman Statue",
+
+
   "item.skyecraft.pink_garnet_block": "Pink Garnet Block",
   "item.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "item.skyecraft.pink_garnet_ore": "Pink Garnet Ore",
@@ -29,8 +34,11 @@
   "block.skyecraft.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "block.skyecraft.pink_garnet_ore": "Pink Garnet Ore",
   "block.skyecraft.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-  "item.skyecraft.hytale_merger": "Hytale Block Merger",
 
+
+
+
+  "item.skyecraft.hytale_merger": "Hytale Block Merger",
 
   "block.skyecraft.statue_zombie_pigman": "Statue Zombie Pigman",
   "block.skyecraft.hytale_cobblestone": "Hytale Cobblestone",

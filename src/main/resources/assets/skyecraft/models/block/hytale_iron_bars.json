@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/iron_bars",
   "textures": {
     "all": "skyecraft:block/iron_bars"
   }

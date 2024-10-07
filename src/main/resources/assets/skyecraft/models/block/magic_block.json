@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/magic_block",
+  "textures": {
+    "all": "skyecraft:block/magic_block"
+  }
+}

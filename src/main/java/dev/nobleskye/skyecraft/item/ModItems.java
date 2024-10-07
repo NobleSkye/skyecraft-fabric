@@ -1,5 +1,6 @@
 package dev.nobleskye.skyecraft.item;
 
+import dev.nobleskye.skyecraft.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import dev.nobleskye.skyecraft.SkyeCraft;
 import net.minecraft.item.Item;
@@ -11,6 +12,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item CHISTEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+
 
     public static final Item MCD_TRUTHSEEKER = registerItem("mcd_truthseeker", new Item(new Item.Settings()));
     public static final Item MCD_RAPIER = registerItem("mcd_rapier", new Item(new Item.Settings()));
@@ -18,10 +21,13 @@ public class ModItems {
     public static final Item MCD_SWORD = registerItem("mcd_sword", new Item(new Item.Settings()));
     public static final Item MCD_UNNAMED_BLADE = registerItem("mcd_unnamed_blade", new Item(new Item.Settings()));
 
+
     public static final Item LIGHTER = registerItem("lighter", new Item(new Item.Settings()));
     public static final Item LOCK_PICK = registerItem("lock_pick", new Item(new Item.Settings()));
 
+
     public static final Item HYTALE_MERGER = registerItem("hytale_merger", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SkyeCraft.MOD_ID, name), item);
@@ -41,6 +47,7 @@ public class ModItems {
             entries.add(MCD_SWORD);
             entries.add(MCD_UNNAMED_BLADE);
             entries.add(HYTALE_MERGER);
+            entries.add(CHISTEL);
         });
     }
 }

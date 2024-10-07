@@ -1,5 +1,6 @@
 package dev.nobleskye.skyecraft.block;
 
+import dev.nobleskye.skyecraft.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import dev.nobleskye.skyecraft.SkyeCraft;
 import net.minecraft.block.*;
@@ -29,6 +30,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
 
 
     public static final Block HYTALE_COBBLESTONE = registerBlock("hytale_cobblestone",
@@ -49,8 +53,11 @@ public class ModBlocks {
     public static final Block HYTALE_ANDESITE = registerBlock("hytale_andesite",
             new Block(AbstractBlock.Settings.copy(Blocks.ANDESITE)));
 
-//    public static final Block HYTALE_BIGDOOR = registerBlock("hytale_bigdoor",
+    public static final Block HYTALE_BIGDOOR = registerBlock("hytale_bigdoor",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+            .requiresTool().sounds(BlockSoundGroup.LANTERN)));
 //            new DoorBlock(AbstractBlock.Settings.copy(Blocks.OAK_DOOR)));
+
 
 //    public static final Block HYTALE_BIRCH_DOOR = registerBlock("hytale_birch_door",
 //            new DoorBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_DOOR)));
@@ -208,17 +215,12 @@ public class ModBlocks {
     public static final Block HYTALE_POLISHED_GRANITE = registerBlock("hytale_polished_granite",
             new Block(AbstractBlock.Settings.copy(Blocks.POLISHED_GRANITE)));
 
-    public static final Block HYTALE_PORTAL = registerBlock("hytale_portal",
-            new NetherPortalBlock(AbstractBlock.Settings.copy(Blocks.NETHER_PORTAL)));
-
 //    public static final Block HYTALE_RED_SAND = registerBlock("hytale_red_sand",
 //            new SandBlock(14406560, AbstractBlock.Settings.copy(Blocks.RED_SAND)));
 
     public static final Block HYTALE_RED_SANDSTONE = registerBlock("hytale_red_sandstone",
             new Block(AbstractBlock.Settings.copy(Blocks.RED_SANDSTONE)));
 
-    public static final Block HYTALE_REDSTONE_SMALL = registerBlock("hytale_redstone_small",
-            new Block(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
 
 //    public static final Block HYTALE_SAND = registerBlock("hytale_sand",
 //            new SandBlock(14406560, AbstractBlock.Settings.copy(Blocks.SAND)));
@@ -310,6 +312,9 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         SkyeCraft.LOGGER.info("Registering Mod Blocks for " + SkyeCraft.MOD_ID);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(entries -> {
+            entries.add(ModBlocks.MAGIC_BLOCK);
+        });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
@@ -319,13 +324,13 @@ public class ModBlocks {
 
 
 
-            entries.add(ModBlocks.HYTALE_COBBLESTONE);
+
 //            entries.add(ModBlocks.HYTALE_ACACIA_DOOR);
             entries.add(ModBlocks.HYTALE_ACACIA_LOG);
             entries.add(ModBlocks.HYTALE_ACACIA_PLANKS);
 //            entries.add(ModBlocks.HYTALE_ACACIA_TRAPDOOR);
             entries.add(ModBlocks.HYTALE_ANDESITE);
-//            entries.add(ModBlocks.HYTALE_BIGDOOR);
+            entries.add(ModBlocks.HYTALE_BIGDOOR);
 //            entries.add(ModBlocks.HYTALE_BIRCH_DOOR);
             entries.add(ModBlocks.HYTALE_BIRCH_LOG);
             entries.add(ModBlocks.HYTALE_BIRCH_PLANKS);
@@ -378,10 +383,9 @@ public class ModBlocks {
             entries.add(ModBlocks.HYTALE_PODZOL);
             entries.add(ModBlocks.HYTALE_POLISHED_ANDESITE);
             entries.add(ModBlocks.HYTALE_POLISHED_GRANITE);
-            entries.add(ModBlocks.HYTALE_PORTAL);
+
 //            entries.add(ModBlocks.HYTALE_RED_SAND);
             entries.add(ModBlocks.HYTALE_RED_SANDSTONE);
-            entries.add(ModBlocks.HYTALE_REDSTONE_SMALL);
 //            entries.add(ModBlocks.HYTALE_SAND);
             entries.add(ModBlocks.HYTALE_SAND_GRASS);
             entries.add(ModBlocks.HYTALE_SANDSTONE);

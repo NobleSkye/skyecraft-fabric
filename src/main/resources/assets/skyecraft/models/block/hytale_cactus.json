@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cactus",
   "textures": {
     "all": "skyecraft:block/cactus"
   }

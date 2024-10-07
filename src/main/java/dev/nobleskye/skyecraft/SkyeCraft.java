@@ -20,6 +20,7 @@ public class SkyeCraft implements ModInitializer {
         ModItemGroups.registerItemGroups();
 
 
+
         LOGGER.info("Skyecraft has been initialized!");
     }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/glass",
   "textures": {
     "all": "skyecraft:block/dark_oak_window"
   }
