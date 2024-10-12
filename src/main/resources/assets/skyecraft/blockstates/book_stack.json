@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "skyecraft:block/book_stack_north" },
+    "facing=east": { "model": "skyecraft:block/book_stack_east" },
+    "facing=south": { "model": "skyecraft:block/book_stack_south" },
+    "facing=west": { "model": "skyecraft:block/book_stack_west" }
+  }
+}

@@ -1,22 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "type": "minecraft:stonecutting",
+  "category": "misc",
   "group": "hytale",
-  "pattern": [
-    "###",
-    "#H#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:dark_oak_planks"
-    },
-    "H": {
-      "item": "skyecraft:hytale_merger"
-    }
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
   },
   "result": {
     "id": "skyecraft:hytale_dark_oak_planks",
-    "count": 8
+    "count": 1
   }
 }

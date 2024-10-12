@@ -6,7 +6,7 @@
 
   "item.skyecraft.pink_garnet": "Pink Garnet",
   "item.skyecraft.raw_pink_garnet": "Raw Pink Garnet",
-  "item.skyecraft.magic_block": "Magic Block",
+  "block.skyecraft.magic_block": "Magic Block",
 
   "tooltip.skyecraft.chisel.shift_down": "Chiseled Block",
   "tooltip.skyecraft.chisel": "Chisel",

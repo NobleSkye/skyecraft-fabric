@@ -1,22 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "type": "minecraft:stonecutting",
+  "category": "misc",
   "group": "hytale",
-  "pattern": [
-    "###",
-    "#H#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:cut_red_sandstone"
-    },
-    "H": {
-      "item": "skyecraft:hytale_merger"
-    }
+  "ingredient": {
+    "item": "minecraft:cut_red_sandstone"
   },
   "result": {
     "id": "skyecraft:hytale_cut_red_sandstone",
-    "count": 8
+    "count": 1
   }
 }

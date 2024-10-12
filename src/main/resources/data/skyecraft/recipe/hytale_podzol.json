@@ -1,22 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "type": "minecraft:stonecutting",
+  "category": "misc",
   "group": "hytale",
-  "pattern": [
-    "###",
-    "#H#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:podzol"
-    },
-    "H": {
-      "item": "skyecraft:hytale_merger"
-    }
+  "ingredient": {
+    "item": "minecraft:podzol"
   },
   "result": {
     "id": "skyecraft:hytale_podzol",
-    "count": 8
+    "count": 1
   }
 }

@@ -1,22 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "type": "minecraft:stonecutting",
+  "category": "misc",
   "group": "hytale",
-  "pattern": [
-    "###",
-    "#H#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:bricks"
-    },
-    "H": {
-      "item": "skyecraft:hytale_merger"
-    }
+  "ingredient": {
+    "item": "minecraft:bricks"
   },
   "result": {
     "id": "skyecraft:hytale_bricks",
-    "count": 8
+    "count": 1
   }
 }

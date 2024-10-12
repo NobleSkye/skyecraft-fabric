@@ -35,8 +35,8 @@ public class ModBlocks {
 
 
 
-    public static final Block HYTALE_COBBLESTONE = registerBlock("hytale_cobblestone",
-            new Block(AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
+//    public static final Block HYTALE_COBBLESTONE = registerBlock("hytale_cobblestone",
+//            new Block(AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
 
 //    public static final Block HYTALE_ACACIA_DOOR = registerBlock("hytale_acacia_door",
 //            new DoorBlock(AbstractBlock.Settings.copy(Blocks.ACACIA_DOOR)));
@@ -302,11 +302,11 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(SkyeCraft.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(SkyeCraft.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(SkyeCraft.MOD_ID, name),
+        Registry.register(Registries.ITEM, new Identifier(SkyeCraft.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/magic_block",
+  "parent": "block/cube_all",
   "textures": {
     "all": "skyecraft:block/magic_block"
   }
